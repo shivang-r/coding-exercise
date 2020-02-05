@@ -45,6 +45,11 @@ public class ClosingPriceFinder {
         }
     }
 
+    /**
+     * utility function to read lines
+     * @param scanner
+     * @return
+     */
     public static String readNextLine(Scanner scanner) {
         if (scanner.hasNextLine()) {
             return scanner.nextLine();
