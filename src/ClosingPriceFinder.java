@@ -13,7 +13,7 @@ public class ClosingPriceFinder {
     public static String CUSIP_HEADER = "CUSIP";
 
     public static void main(String args[]) {
-        // File path can be entered as input or read from properties however here it is hardcoded
+        // File path can be entered as input or read from properties however here it is hard coded
         String inputFile1 = "C:\\res\\input\\cusip.txt";
         findClosingPrice(inputFile1);
     }
